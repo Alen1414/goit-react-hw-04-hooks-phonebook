@@ -1,0 +1,39 @@
+.main_form {
+  border: 3px solid rgba(196, 212, 214, 0.76);
+  width: 450px;
+  /* display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start; */
+  padding: 20px;
+  margin: 10px;
+  background-color: rgba(196, 212, 214, 0.76);
+}
+.main_input {
+  display: flex;
+  flex-direction: column;
+  padding-top: 20px;
+}
+
+.main_buttom {
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.contacts {
+  display: flex;
+  justify-content: space-between;
+}
+
+.contacts_name {
+  margin-left: 30px;
+}
+.main_search {
+  border: 3px solid rgb(177, 181, 185);
+  width: 450px;
+  display: flex;
+
+  padding: 20px;
+  margin: 10px;
+  background-color: rgb(177, 181, 185);
+}
