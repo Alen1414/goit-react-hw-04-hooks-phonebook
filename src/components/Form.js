@@ -1,7 +1,7 @@
 import  React, { useState } from 'react';
 import 'components/Form.css';
 
-export default function Form() {
+export default function Form(option) {
 const [name, setName] = useState('');
 const [number, setNumber] = useState('');
 
@@ -18,8 +18,9 @@ const [number, setNumber] = useState('');
   const hendelSubmit = e => {
     e.preventDefault();
     console.log(name, number);
-    // this.props.onSubmit(this.state);
-    // this.reset();
+    option.onSubmit({name, number});
+    setName('')
+     setNumber('')
   };
    
     
